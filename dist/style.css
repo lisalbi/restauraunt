@@ -211,13 +211,14 @@ footer {
 
 .logo {
   font-family: "Osake", serif;
-  font-size: 100px;
+  font-size: 65px;
   margin-bottom: 10px;
 }
 
 p.home {
+  margin: 20px 0 30px 0;
   font-family: "Gill Sans", sans-serif;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 300;
   letter-spacing: 3px;
 }
@@ -228,15 +229,11 @@ p.home {
   text-align: center;
   width: 250px;
   cursor: pointer;
-}
-
-#viewMenuBtn {
   color: #fff;
   transition: all 0.3s;
-  position: relative;
+  position: relative;transition: all 0.3s;
 }
-#viewMenuBtn {
-  transition: all 0.3s;
+
 }
 #viewMenuBtn::before {
   content: "";
@@ -255,6 +252,8 @@ p.home {
   border-top-color: rgba(255, 255, 255, 0.5);
   border-bottom-color: rgba(255, 255, 255, 0.5);
   transform: scale(0.1, 1);
+
+
 }
 #viewMenuBtn:hover span {
   letter-spacing: 2px;
