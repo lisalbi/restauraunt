@@ -229,12 +229,18 @@ p.home {
   text-align: center;
   width: 250px;
   cursor: pointer;
-  color: #fff;
-  transition: all 0.3s;
-  position: relative;transition: all 0.3s;
 }
 
+#viewMenuBtn {
+  color: #fff;
+  transition: all 0.3s;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
 }
+#viewMenuBtn {
+  transition: all 0.3s;
+}
+
 #viewMenuBtn::before {
   content: "";
   position: absolute;
@@ -252,10 +258,8 @@ p.home {
   border-top-color: rgba(255, 255, 255, 0.5);
   border-bottom-color: rgba(255, 255, 255, 0.5);
   transform: scale(0.1, 1);
-
-
 }
-#viewMenuBtn:hover span {
+#viewMenuBtn:hover {
   letter-spacing: 2px;
 }
 #viewMenuBtn:hover::before {
@@ -271,8 +275,9 @@ p.home {
   height: 100%;
   z-index: 1;
   transition: all 0.3s;
-  background-color: rgba(255, 255, 255, 0.1);
+  
 }
+
 #viewMenuBtn:hover::after {
   opacity: 0;
   transform: scale(0.1, 1);
