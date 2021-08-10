@@ -9,4 +9,4 @@ This project is a restauraunt website. It contains three pages: a landing page, 
 * Contact Page
 
 <br/><br/>
-![Screenshot](/img/screenshot.png "screenshot")
+![Screenshot](/src/images/screenshot.png "screenshot")
