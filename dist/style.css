@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Osake";
-  src: url("Osake.otf");
+  src: url("fonts/Osake.otf") format("opentype");
 }
 
 html,
@@ -275,7 +275,6 @@ p.home {
   height: 100%;
   z-index: 1;
   transition: all 0.3s;
-  
 }
 
 #viewMenuBtn:hover::after {
